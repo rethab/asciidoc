@@ -22,15 +22,13 @@ Source Code
 .Brewery
 [source,scala]
 ----
-/** some comment */
 trait Brewery {
-
-  val grinder: Grider
-
   def brew(): Coffee = ???
-  
 }
 ----
+
+Graphviz Diagram
+~~~~~~~~~~~~~~~~
 
 ["graphviz", "sample2.png"]
 ---------------------------------------------------------------------
