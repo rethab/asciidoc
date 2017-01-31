@@ -10,6 +10,12 @@ Document was created by {Author}
 
 TIP: Does this show pretty icons?
 
+.Some Note
+NOTE: Does this show
+      an icon on the left?
+
+IMPORTANT: icons? anybody?
+
 Source Code
 ~~~~~~~~~~~
 
