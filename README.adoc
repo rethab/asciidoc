@@ -1,8 +1,14 @@
+
 Tests with AsciiDoc
 ===================
 :Author:    Reto
 :Date:      2017-01-31
-
+:Email:    rh@nezasa.com
+:Revision: v1.44
+:numbered:
+:source-highlighter: prettify
+:data-uri:
+:toc:
 
 Intro
 -----
@@ -18,6 +24,18 @@ IMPORTANT: icons? anybody?
 
 Source Code
 ~~~~~~~~~~~
+
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> HTTP response body
 
 .Brewery
 [source,scala]
